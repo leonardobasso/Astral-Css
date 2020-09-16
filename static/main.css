@@ -2,7 +2,15 @@
   color: #fff;
 }
 
+.white::after, .white::before {
+  color: #fff;
+}
+
 .bg-white {
+  background-color: #fff;
+}
+
+.bg-white::after, .bg-white::before {
   background-color: #fff;
 }
 
@@ -18,7 +26,15 @@
   color: #dbdbdb;
 }
 
+.gray::after, .gray::before {
+  color: #dbdbdb;
+}
+
 .bg-gray {
+  background-color: #dbdbdb;
+}
+
+.bg-gray::after, .bg-gray::before {
   background-color: #dbdbdb;
 }
 
@@ -34,7 +50,15 @@
   color: #282C2F;
 }
 
+.dark-gray::after, .dark-gray::before {
+  color: #282C2F;
+}
+
 .bg-dark-gray {
+  background-color: #282C2F;
+}
+
+.bg-dark-gray::after, .bg-dark-gray::before {
   background-color: #282C2F;
 }
 
@@ -50,7 +74,15 @@
   color: #ca0000;
 }
 
+.red::after, .red::before {
+  color: #ca0000;
+}
+
 .bg-red {
+  background-color: #ca0000;
+}
+
+.bg-red::after, .bg-red::before {
   background-color: #ca0000;
 }
 
@@ -66,7 +98,15 @@
   color: #013ab6;
 }
 
+.blue::after, .blue::before {
+  color: #013ab6;
+}
+
 .bg-blue {
+  background-color: #013ab6;
+}
+
+.bg-blue::after, .bg-blue::before {
   background-color: #013ab6;
 }
 
@@ -82,7 +122,15 @@
   color: #7306a5;
 }
 
+.purple::after, .purple::before {
+  color: #7306a5;
+}
+
 .bg-purple {
+  background-color: #7306a5;
+}
+
+.bg-purple::after, .bg-purple::before {
   background-color: #7306a5;
 }
 

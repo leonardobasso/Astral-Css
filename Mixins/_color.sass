@@ -1,8 +1,12 @@
 @mixin color($color, $classname)
     .#{$classname}
         color: $color
+        &::after, &::before
+            color: $color
     .bg-#{$classname}
         background-color: $color
+        &::after, &::before
+            background-color: $color
     .bd-#{$classname}
         border-color: $color
     .nav-item-#{$classname}
