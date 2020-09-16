@@ -1,22 +1,25 @@
 .navbar
-    border: 1px solid #000
+    align-items: center
     display: flex
     justify-content: space-between
-    align-items: center
-    margin: 0
-    padding: 1rem
+    @include padding-lr(25px)
+    height: 8vh
+    .nav-items
+        display: flex
     ul 
         margin: 0
+        display: flex
         li 
             list-style: none
-            display: inline-block
             @include padding-lr(1rem)
     a 
-        text-decoration: none    
+        text-decoration: none 
+        display: flex   
     .nav-items-l
         display: flex
         align-item: left
-
+    .test
+        float: right
 .burger
     width: 25px
     height: 3px

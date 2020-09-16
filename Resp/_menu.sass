@@ -1,0 +1,30 @@
+// Tablet
+// ! @media screen and ( max-width: $TabletW )
+// Phone
+@media screen and ( max-width: $SmartphoneW )
+    .navbar
+        .nav-items
+            display: flex
+            flex-direction: column
+            width: 50%
+            height: 92vh
+            position: absolute
+            @include padding-lr(0)
+            right: 0px
+            top: 8vh
+            align-items: center
+            justify-content: start
+            transform: translateX(100%)
+            transition: .4s ease-in
+            li 
+                display: flex
+                padding: 10px
+        .menu-open
+            transform: translateX(0%) 
+    .burger-close 
+        span
+            background: transparent
+            &::after
+                transform: rotate(45deg)
+            &::before
+                transform: rotate(-45deg)
