@@ -576,6 +576,9 @@ body, head {
   width: 25px;
   height: 3px;
   background-color: #000000;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: .5s;
 }
 
 .burger::before, .burger::after {
@@ -584,6 +587,9 @@ body, head {
   height: 3px;
   background-color: #000000;
   position: absolute;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: .5s;
 }
 
 .burger::before {
@@ -592,6 +598,18 @@ body, head {
 
 .burger::after {
   transform: translateY(8px);
+}
+
+.burger-close span {
+  background: transparent;
+}
+
+.burger-close span::after {
+  transform: rotate(45deg);
+}
+
+.burger-close span::before {
+  transform: rotate(-45deg);
 }
 
 @media screen and (max-width: 1024px) {
