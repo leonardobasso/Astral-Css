@@ -1,0 +1,37 @@
+// For height, width, padding, center elements, Borders
+//-------------------------------------------------
+
+@mixin padding-lr($padding__value) // Padding left and right
+    padding-left: $padding__value/2
+    padding-right: $padding__value/2
+
+@mixin padding-tb($padding-value) // Padding top and bottom
+    padding-top: $padding__value/2
+    padding-bottom: $padding__value/2
+
+@mixin resp-height($height) // Responsive height that change when yoou resize your site
+    height: 0
+    padding-top: $height +0%
+
+@mixin center-container($horizontal: true, $vertical: true) // Center all elements in a container
+    display: flex
+    display: -webkit-box
+    display: -moz-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    flex-direction: row; 
+    @if $horizontal and $vertical
+        align-items: center
+        justify-content: center
+    @else if $horizontal
+        align-items: center
+    @else if $vertical 
+        justify-content: center
+        
+@mixin Border-top-rad($rad_value) // Create a Boredr Top Radious
+    border-top-left-radius: $rad_value
+    border-top-right-radius: $rad_value 
+    
+@mixin Border-bottom-rad($rad_value) // Create a Boredr Bottom Radious
+    border-bottom-left-radius: $rad_value
+    border-bottom-right-radius: $rad_value 

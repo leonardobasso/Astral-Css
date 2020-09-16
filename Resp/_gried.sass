@@ -1,0 +1,16 @@
+// Tablet
+@media screen and ( max-width: $TabletW )
+
+    @for $i from 1 through 12
+        .col-ld-#{ $i }
+            flex: 0 0 100% / 12 * $i
+            box-sizing: border-box
+// Phone
+@media screen and ( max-width: $SmartphoneW )
+
+    @for $i from 1 through 12
+        .col-sm-#{ $i }
+            flex: 0 0 100% / 12 * $i
+            box-sizing: border-box
+
+    

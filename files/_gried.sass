@@ -1,0 +1,15 @@
+// Test
+body, head
+    margin: 0
+
+.row
+    display: flex
+    flex-wrap: wrap
+.col
+    flex: 1
+// Col code
+
+@for $i from 1 through 12
+    .col-#{ $i }
+        flex: 0 0 100% / 12 * $i
+        box-sizing: border-box

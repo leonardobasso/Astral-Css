@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,IAAI,EAAE,IAAI,CAAC;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CAAG;;AACnB,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EFUb,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,WAAW;EACpB,OAAO,EAAE,QAAQ;EACjB,OAAO,EAAE,WAAW;EACpB,OAAO,EAAE,YAAY;EACrB,cAAc,EAAE,GAAG;EAEf,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CEjBa",
+    "sources": [
+        "../main.sass",
+        "../_lunghezze.sass",
+        "../_color.sass",
+        "../_test.sass"
+    ],
+    "names": [],
+    "file": "main.css"
+}

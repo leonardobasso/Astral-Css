@@ -1,0 +1,4 @@
+# Responsive
+    sm = Smartphone (797px)
+    tb = Tablet (1024px)
+    ld = 21:9 Dekstop (device-aspect-ratio: 21/9)
