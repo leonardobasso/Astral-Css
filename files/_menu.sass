@@ -2,6 +2,7 @@
     border: 1px solid #000
     display: flex
     justify-content: space-between
+    align-items: center
     margin: 0
     padding: 1rem
     ul 
@@ -15,3 +16,18 @@
     .nav-items-l
         display: flex
         align-item: left
+
+.burger
+    width: 25px
+    height: 3px
+    background-color: #000000
+    &::before, &::after
+        content: ''
+        width: 25px
+        height: 3px
+        background-color: #000000
+        position: absolute
+    &::before
+        transform: translateY(-8px)
+    &::after
+        transform: translateY(8px)
